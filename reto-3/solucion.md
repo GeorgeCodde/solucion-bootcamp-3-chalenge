@@ -23,3 +23,5 @@
 ## Paso 6.- Deploy to Registry DockerHub
 
 ![screenshotReto3-6](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/assets/screenshotReto3-6.png)
+
+![screenshotReto3-7](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/assets/screenshotReto3-7.png)
