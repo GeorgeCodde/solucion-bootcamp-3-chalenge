@@ -30,8 +30,3 @@ then
         docker ps -a
     fi
 fi
-
-
-
-
-#
