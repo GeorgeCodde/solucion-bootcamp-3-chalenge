@@ -16,7 +16,7 @@
 
 ![screenshotReto5-4](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/assets/screenshotReto5-4.png)
 
-### Crear el Script que permita realizar todo lo antes mencionado
+### Crear el Script que permita realizar todo lo antes mencionado
 
 ```bash
 #!/bin/bash
