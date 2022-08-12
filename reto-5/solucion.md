@@ -6,7 +6,7 @@
 
 ![screenshotReto5-2](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/assets/screenshotReto5-2.png)
 
-### Ejecuta un contenedor con la imagen
+### Ejecuta un contenedor con la imagen
 
 #### Archivo Dockerfile
 
