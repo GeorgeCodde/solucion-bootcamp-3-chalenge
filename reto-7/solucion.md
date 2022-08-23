@@ -4,9 +4,10 @@
 
 - Observando en el dockerhub corespondiente a la imagen y tag indicado obsevamos que la imagen expone el puerto 80, entonces queda el comando de la siguiente forma.
 
-´´´
+```
 docker run -d --name web -p 8000:80 php:7.4-apache
-´´´
+```
+
 ![ejecucion de docker](../assets/screenshotReto7-1.png)
 ![acceso a la paguina](../assets/screenshotReto7-2.png)
 
