@@ -2,7 +2,7 @@
 
 ## Ejercicio 1 - Crear contenedores de MongoDB y MongoDB Express
 
-### Crea un contenedor con MongoDB, protegido por usuario y contraseña.
+### Crea un contenedor con MongoDB, protegido por usuario y contraseña.
 
 ### Conectate utilizando Mongo Express. Crea una base de datos llamada Library con una colección llamada Books.
 
@@ -71,6 +71,6 @@ networks:
 
 ## Ejercicio 3 - Limpiar sistema
 
-### Eliminar todos los contenedores que tienes ejecutándose en tu máquina.
+### Eliminar todos los contenedores que tienes ejecutándose en tu máquina.
 
 ![ls desde fuera del contenedor](../assets/screenshotReto6-5.png)
