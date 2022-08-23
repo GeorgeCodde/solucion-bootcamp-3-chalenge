@@ -6,7 +6,7 @@
 
 ### Conectate utilizando Mongo Express. Crea una base de datos llamada Library con una colección llamada Books.
 
-La creación de los dos contenedores de mongo y mongo express se realizo mediante docker compose a continuación el [archivo](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/reto-6/mongo/docker-compose.yml)
+La creación de los dos contenedores de mongo y mongo express se realizo mediante docker compose a continuación el [docker-compose.yml](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/reto-6/mongo/docker-compose.yml)
 
 Este es un fracmento del archivo docker-compose.yml
 
@@ -56,4 +56,21 @@ networks:
     driver: bridge
 ```
 
-### Ejecuta un contenedor con la imagen
+### Conectate utilizando Mongo Express. Crea una base de datos llamada Library con una colección llamada Books.
+
+![Captura](../assets/screenshotReto6-1.png)
+
+## Ejercicio 2 - Crear contenedor Nginx
+
+![compose](../assets/screenshotReto6-2.png)
+![sitio](../assets/screenshotReto6-3.png)
+
+### Ejecuta ls desde fuera para ver que el contenido se ha copiado correctamente.
+
+![ls desde fuera del contenedor](../assets/screenshotReto6-4.png)
+
+## Ejercicio 3 - Limpiar sistema
+
+### Eliminar todos los contenedores que tienes ejecutándose en tu máquina.
+
+![ls desde fuera del contenedor](../assets/screenshotReto6-5.png)
