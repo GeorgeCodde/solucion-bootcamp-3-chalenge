@@ -1,0 +1,33 @@
+version: "3.7"
+services:
+  dbpostgres:
+    container_name: dbpostgres
+    build: ./postgres/
+    restart: always
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+    networks:
+      - postgres-net
+
+  backend:
+    container_name: myapp
+    build: ./myapp/
+    depends_on:
+      - dbpostgres
+    restart: always
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: myappdb
+      POSTGRES_HOST: dbpostgres
+      POSTGRES_PORT: 5432
+    ports:
+      - "3000:5000"
+    networks:
+      - postgres-net
+
+networks:
+  postgres-net:
+    driver: bridge 
