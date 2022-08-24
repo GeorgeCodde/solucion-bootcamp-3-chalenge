@@ -1,6 +1,6 @@
 # Solucion a reto 9
 
-- A continuación el [archivo]() yml donde se muestra la creacion de los contenedores y principalmente como se realizo la creación del contenedor con dependencia de que primero se creara la base de datos.
+- A continuación el [archivo](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/reto-9/docker-compose.yml) yml donde se muestra la creacion de los contenedores y principalmente como se realizo la creación del contenedor con dependencia de que primero se creara la base de datos.
 
 - Otro de los puntos importantes fue la configuracion de las variables de entorno adecuadas a lo que necesitaba la aplicación en python.
 
@@ -40,7 +40,7 @@ networks:
     driver: bridge
 ```
 
-- Realice mejoras en el [dockerfile]() de la aplicacion y quedo como se muestra acontinuación
+- Realice mejoras en el [dockerfile](https://github.com/GeorgeCodde/solucion-bootcamp-3-chalenge/blob/main/reto-9/myapp/Dockerfile) de la aplicacion y quedo como se muestra acontinuación
 
 ```dockerfile
 FROM python:3
